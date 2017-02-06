@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fun="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fun.progressbarwithnumber.MainActivity">
+
+    <com.fun.progressbarwithnumber.HorizontalProgressBarWithNumber
+        android:id="@+id/hpbwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        fun:progress_circle_color="#ff000000"
+        fun:progress_reached_bar_height="20dp"
+        fun:progress_reached_color="#FFFF4081"
+        fun:progress_text_color="#ffffffff"
+        fun:progress_text_size="14sp"
+        fun:progress_unreached_bar_height="20dp"
+        fun:progress_unreached_color="#ffBCB4E8" />
+
+</RelativeLayout>
